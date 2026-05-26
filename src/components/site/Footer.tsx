@@ -43,7 +43,7 @@ export function Footer() {
           <div className="text-xs text-white/70 md:text-right space-y-2">
             <div className="font-medium text-white/90">{t.footer.legal}</div>
             <div className="text-white/60">
-              © {new Date().getFullYear()} CED Park Craiova North · {t.footer.rights}
+              © {new Date().getFullYear()} CED Park Craiova · {t.footer.rights}
             </div>
             <div className="flex flex-wrap gap-x-4 gap-y-1 md:justify-end pt-1">
               <Link
